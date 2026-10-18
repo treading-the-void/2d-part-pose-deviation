@@ -1,0 +1,27 @@
+{
+  "camera": {
+    "video_id": 2,
+    "backend": "dshow",
+    "width": 2560,
+    "height": 1440,
+    "fps": 30,
+    "exposure": -3,
+    "gain": 10,
+    "retry_times": 5,
+    "retry_interval": 1.0,
+    "thread_sleep": 0.001,
+    "queue_max": 5
+  },
+  "calibration_file": "rgb_calibration.yml",
+  "weights_file": "../models/superpoint_v1.pth",
+  "sam_weights_file": "../models/sam_vit_b_01ec64.pth",
+  "sam_model_type": "vit_b",
+  "sam_device": "auto",
+  "comparison_opacity": 0.35,
+  "templates_dir": "../templates",
+  "results_dir": "../matching_results",
+  "working_distance_m": 1.38,
+  "template_frames": 20,
+  "match_frames": 15,
+  "cuda": false
+}

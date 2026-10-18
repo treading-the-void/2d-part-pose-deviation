@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+configs/config.json
+configs/*.local.yml
+templates/*
+!templates/.gitkeep
+matching_results/*
+!matching_results/.gitkeep
+captures/
+models/sam_*.pth
